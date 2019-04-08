@@ -1,0 +1,142 @@
+@import "variables";
+.nav {
+  background-color:$trans;
+  border-bottom: none;
+  .nav-t {
+    background-color:$tran;
+    border:1px solid $pcolor;
+    margin:0px;
+    &:hover {
+      background-color:$pcolor;
+      i {
+        color:black;
+      }
+    }
+    i {
+      color:$pcolor;
+    }
+  }
+  .nav-c {
+    background-color:$pcolor;
+    border-bottom: none;
+    .active.item a {
+      color:$sdcolor;
+    }
+    .item a {
+      color:black;
+    }
+    .item.close {
+      color:black;
+    }
+  }
+}
+
+// MEDIA QUERIES
+@media only screen and (max-width: 435px) {
+  .form {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 436px) {
+  .nav {
+    background-color:  $trans;
+    border-bottom:none;
+    .nav-c {
+      background-color: $trans;
+      border-bottom: none;
+      .item {
+        background-color: $tran;
+        border-bottom: none;
+        a {
+          color:$pcolor;
+        }
+        &:hover {
+          border-bottom: none;
+        }
+      }
+      .item.active {
+        border-bottom: none;
+        a {
+          color:$pcolor;
+        }
+      }
+    }
+  }
+  .form {
+    width: 60%;
+  }
+  .landing {
+    .landingt {
+      h1 {
+        font-size:50px;
+      }
+      h3 {
+        padding-top:0%;
+        padding-bottom:20%;
+        font-size:22px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 648px) {
+  .landing {
+    .landingt {
+      h1 {
+        font-size:70px;
+      }
+      h3 {
+        padding-top:0%;
+        padding-bottom:20%;
+        font-size:25px;
+      }
+    }
+  }
+
+
+}
+@media only screen and (min-width: 1024px) {
+  .nav {
+    border-bottom:1px solid $tran;
+    .nav-c {
+      border-bottom: none;
+      .item {
+        background-color: $tran;
+        background-image:none;
+        width:167.22px;
+        transition-property: none;
+        a {
+          padding:0px 20px 0px 20px;
+        }
+        &:hover {
+          border-bottom: none;
+          a {
+            color:$pcolor;
+          }
+        }
+      }
+      .brand {
+        margin-left:1%;
+        margin-right:1%;
+      }
+      .active.item {
+        border-bottom:none;
+        a {
+          color:$pcolor;
+        }
+      }
+    }
+  }
+  .landing {
+    .landingt {
+      h1 {
+        font-size:100px;
+      }
+      h3 {
+        padding-top:0%;
+        padding-bottom:20%;
+        font-size:30px;
+      }
+    }
+  }
+}

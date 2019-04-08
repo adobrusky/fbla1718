@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/projecta.css" type="text/css"/>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" id="home" href="css/home.css" type="text/css">
+  <link rel="stylesheet" href="css/landing.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Teko" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Job Tips</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <ul class="nav">
+    <li class="brand"><img src="img/navbarimg2.png"/></li>
+    <li class="nav-t"><i class="fa fa-2x fa-bars"></i></li>
+    <!-- Navbar Overlay -->
+    <div class="overlay"></div>
+    <ul class="nav-c">
+      <li class="item close"><i class="fa fa-2x fa-close"></i></li>
+      <li class="item first a"><a href="#about">ABOUT</a></li>
+      <li class="item b"><a href="#apply">APPLYING</a></li>
+      <li class="item c"><a href="#resume">RESUME</a></li>
+      <li class="item last d"><a href="#interview">INTERVIEWS</a></li>
+    </ul>
+  </ul>
+  <!-- Content Area -->
+  <div class="content">
+    <!-- Landing -->
+    <div class="landing">
+      <div class="landingt">
+        <h1>WELCOME TO JOB TIPS</h1>
+        <h3>Job Tips is the best website to help you learn about the employment process.<br><br> Click the button below to get started!</h3>
+        <a id="anchor" href="#about"><i class="fa fa-chevron-down fa-2x"></i></a>
+      </div>
+    </div>
+    <!-- Main Content -->
+    <div id="about" class="main main1 about">
+      <h1>LOOKING FOR A JOB?</h1>
+      <div>
+        <p>You've come to the right place! <br><br>
+          At JOBTIPS, we have simplified and streamlined your job search, it's as easy as one, two three. We will give
+          you the information and tools needed to find and secure employment in one comprehensive website.<br><br></p>
+
+          <div>
+            <p>JOBTIPS <a href="#apply">Job Application</a> section will</p>
+            <ul>
+              <li>Help you find desirable jobs</li>
+              <li>Guide you through the application process</li>
+              <li>Show you the tips that will make your application stand out</li>
+            </ul>
+          </div>
+
+          <p>Try our free <a href="#job-finder">JOBTIPS online job search</a> for access to career opportunities only available here.
+            <br><br>JOBTIPS <a href="#resume">Resume Builder</a> section shows you how to write great resumes. </p>
+
+            <div>
+              <p><br>Great resumes that</p>
+              <ul>
+                <li>Have a modern, professional look and style</li>
+                <li>Include the information employers need</li>
+                <li>Are tailored to each individual job description</li>
+              </ul>
+            </div>
+
+            <div>
+              <p> JOBTIPS <a href="#interview">Interview Success</a> section provides tips that</p>
+
+              <ul>
+                <li>Get you ready for your interview</li>
+                <li>Show you how to make a good impression</li>
+                <li>Help you follow-up after the interview so you “get the job”</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <h2>Let's get started...</h2>
+      </div>
+      <div id="apply" class="main main2 apply">
+        <h1>APPLYING</h1>
+        <div class='apply-content'>
+          <p>
+            Although there are many different ways for you to begin your job search, we suggest you first take an
+            assessment to help identify your job skills. Next, our experts at
+            JOBTIPS have determined that it is better to tailor your resume for each individual job description, so you
+            need to find jobs first. Here is a list of the best places to find available jobs.
+          </p>
+          <br>
+          <ul>
+            <li>Attend job fairs</li>
+            <li>Network: talk to others about your job search</li>
+            <li>Browse online job banks like our <em>JOBTIPS job finder</em></li>
+            <li>Search through newspaper ads</li>
+            <li>Research and contact prospective employers</li>
+            <li>Set up interviews with prospective employers</li>
+            <li>Join job organizations/clubs in your area</li>
+            <li>Attend training sessions or build skills desired by prospective employers</li>
+          </ul>
+          <br>
+          <p>
+            For Additional tips, we suggest you visit <a href="https://www.careeronestop.org/JobSearch/Resumes/job-applications.aspx">Career OneStop</a> when filling out job applications.
+          </p>
+
+        </div>
+
+        <div id='job-finder' class='job-finder'>
+          <form class='form'>
+            <h2>JOBTIPS JOB FINDER</h2>
+            <h3>STATE</h3>
+            <select name="State" id="state">
+              <option value="0" disabled selected>State</option>
+              <option value="1">Nebraska</option>
+              <option value="2">California</option>
+              <option value="3">New York</option>
+              <option value="4">Florida</option>
+              <option value="5">Texas</option>
+              <option value="6">Maine</option>
+              <option value="7">Wyoming</option>
+            </select>
+            <h3>CITY</h3>
+            <input type="text" placeholder='City' id='city'/>
+            <h3>DESIRED ANNUAL SALARY</h3>
+            <select name="Salary" id="salary">
+              <option value="0" disabled selected>Desired Salary</option>
+              <option value="1">Less than $20,000</option>
+              <option value="2">$20,000-$40,000</option>
+              <option value="3">$40,000-$55,000</option>
+              <option value="4">$55,000-$68,000</option>
+              <option value="5">$68,000-$80,000</option>
+              <option value="6">$80,000-$110,000</option>
+              <option value="8">$140,000+</option>
+            </select>
+            <h3>CAREER FIELD</h3>
+            <select name="Field" id="field">
+              <option value="0" disabled selected>Career Field</option>
+              <option value="1">Agriculture, Food & Natural Resources</option>
+              <option value="2">Skilled & Technical Sciences</option>
+              <option value="3">Human Sciences and Education</option>
+              <option value="4">Health Sciences</option>
+              <option value="5">Business, Marketing and Management</option>
+              <option value="6">Communication & Information</option>
+            </select>
+            <h3>EDUCATION LEVEL</h3>
+            <select name="Education" id="education">
+              <option value="0" disabled selected>Education Level</option>
+              <option value="1">High School</option>
+              <option value="2">Associates</option>
+              <option value="3">Bachelors</option>
+              <option value="4">Masters</option>
+              <option value="5">Doctorate</option>
+            </select>
+            <h3>JOB TYPE</h3>
+            <select name="Job-Type" id="job-type">
+              <option value="0" disabled selected>Job-Type</option>
+              <option value="1">Full-time</option>
+              <option value="2">Part-time</option>
+              <option value="3">Commission</option>
+              <option value="4">Contract</option>
+              <option value="5">Temporary</option>
+              <option value="6">Internship</option>
+            </select>
+            <li class='submit'>FIND JOBS</li>
+          </form>
+        </div>
+        <div class="job">
+          <ul class="job-results">
+            <li class="result-text"><h2>Jobs Found:</h2></li>
+            <li class="result no-result"><h1>No jobs found</h1><h3> Try different search settings.</h3></li>
+            <li class="result">
+              <img src="img/rivoli.jpg" alt="Search Result">
+              <p>
+                Rivoli Theater in Seward Nebraska. Professional concessions worker needed. 2+ years of experience minimum. Doctorate in food service preferred. Contact: (402) RIVOLI2
+              </p>
+            </li>
+            <li class="result">
+              <img src="img/google.jpg" alt="Search Result">
+              <p>
+                Google headquarters in Mountain View, CA. Chief software engineer required. No experience
+                required. No education required. Contact 1-BIG-BROTHER
+              </p>
+            </li>
+            <li class="result">
+              <img src="img/ibm.png" alt="Search Result">
+              <p>
+                IBM headquarters in North Castle, NY. Position of head computer engineer needs to be filled.
+                Doctorate in computer engineering required. 4+ years experience in computer engineering, 2+ years in
+                administration preferred. Contact: 800-IBM-4YOU
+              </p>
+            </li>
+            <li class="result">
+              <img src="img/apple.jpg" alt="Search Result">
+              <p>
+                Apple headquarters in Cupertino, CA. New product designer <i>desperately</i> needed.
+                Creativity and common sense greatly preferred. 4+ years of experience in coming up with new ideas.
+                High school education required. Contact: (408) 606-5775
+              </p>
+            </li>
+            <li class="result">
+              <img src="img/fbla_help.png" alt="Search Result">
+              <p>New FBLA web design partner <i>needed</i> in Seward, Nebraska. <b>MUST BE FILLED
+                ASAP</b>! Experience preferred, not required. High school diploma preferred, not required. Contact:
+                (402)-2HELPME
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="resume" class="main main1">
+        <h1>WRITING A RESUME & COVER LETTER</h1>
+        <div class='resume-container'>
+          <div class="resume-content">
+            <p>
+              An excellent resume has the power to open doors.
+              Your resume describes your qualifications and what makes you unique. To stand out among other applicants, you need a
+              resume that markets your strengths and match for the job. You might start
+              with a generic resume but it needs to be individually tailored for each job!
+            </p>
+            <div class="caro">
+              <div>
+                <p>A great resume:</p>
+                <ul>
+                  <li>Grabs the attention of employers and recruiters</li>
+                  <li>Has organized Information</li>
+                  <li>Is readable/neat</li>
+                  <li>Has grammar and spelling perfection</li>
+                  <li>Clearly presents your contact information</li>
+                  <li>Sells your strongest skills and accomplishments</li>
+                  <li>Highlights relevant education/training</li>
+                  <li>List Awards and Special accomplishments</li>
+                  <li>Shows how you’re a match for a position or project</li>
+                  <li>Contains meaningful key words emphasizing your skills</li>
+                  <li>Shows you are available, flexible and familiar with the company</li>
+                  <li>And most importantly, gets you a job interview!</li>
+                </ul>
+              </div>
+              <div class="carousel-container">
+                <ul class="carousel">
+                  <li class="active-img"><a href="img/resume1.jpg"><img src="img/resume1.jpg" alt="Picture of a Resume"/></a></li>
+                  <li><a href="img/resume2.png"><img src="img/resume2.png" alt="Resume Examples For Jobs Sample Resume Ideas 10: Resume Examples For Jobs"/></a></li>
+                  <li><a href="img/resume3.jpg"><img src="img/resume3.jpg" alt="Picture of a Resume"/></a></li>
+                  <li><a href="img/coverletter1.jpg"><img src="img/coverletter1.jpg" alt="Picture of a cover letter"/></a></li>
+                  <li><a href="img/coverletter2.jpg"><img src="img/coverletter2.jpg" alt="Picture of a cover letter"/></a></li>
+                  <div class="indicators">
+                    <li class="indicator active-indicator"><i class="fa fa-circle"></i></li>
+                    <li class="indicator"><i class="fa fa-circle-o"></i></li>
+                    <li class="indicator"><i class="fa fa-circle-o"></i></li>
+                    <li class="indicator"><i class="fa fa-circle-o"></i></li>
+                    <li class="indicator"><i class="fa fa-circle-o"></i></li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div class="ele">
+              <p class='left'>
+                Elements of a Resume:
+              </p>
+              <ul>
+                <div>
+                <li>Top portion of resume (first third to half)</li>
+                <li>Header</li>
+                <ul>
+                  <li>Name you go by that stands out on page</li>
+                  <li>Contact information address, phone, email</li>
+                </ul>
+              </div>
+              <div>
+                <li>Headline and Summary</li>
+                <ul>
+                  <li>What you’re looking for in a career with this company</li>
+                  <li>How you’re qualified</li>
+                  <li>Announces your job target and sums up why you’re a good candidate</li>
+                </ul>
+              </div>
+              <div>
+                <li>Special Skills</li>
+                <ul>
+                  <li>List relevant skills peculiar to the job</li>
+                  <li>Skills you possess that are unique and you consider valuable</li>
+                </ul>
+              </div>
+              <div>
+                <li>Work Experience or Professional Experience or Employment History</li>
+                <ul>
+                  <li>List employment history, latest first</li>
+                  <li>Include volunteer experience</li>
+                </ul>
+              </div>
+              <div>
+                <li>Education/Continuing Education and Professional Development</li>
+                <ul>
+                  <li>List education most recent first</li>
+                  <li>Include education in progress or partially complete if relevant</li>
+                </ul>
+              </div>
+              <div>
+                <li>Other Information</li>
+                <ul>
+                  <li>Professional memberships</li>
+                  <li>Awards that support your candidacy</li>
+                </ul>
+              </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="interview" class="main main2 interview">
+        <h1>INTERVIEWS</h1>
+        <div class="firsti">
+          <p>The interview is the second most important part of applying for a job
+            besides the actual application. Here are some tips on having a successful interview:<br><br></p>
+            <ul>
+              <li>Arrive 10-15 minutes early to the interview</li>
+              <li>Let the interviewer start the dialogue</li>
+              <ul>
+                <li>Be confident but don’t appear too eager</li>
+                <li>Don’t interrupt</li>
+                <li>Don’t be afraid to ask for clarification</li>
+              </ul>
+              <li>Practice in front of the mirror</li>
+              <li>Be prepared</li>
+              <ul>
+                <li>Know facts/news about the company</li>
+                <li>Find out about the person conducting the interview</li>
+                <li>Re-read the job description</li>
+              </ul>
+              <li>Make a list of questions</li>
+              <ul>
+                <li>Clarify anything you are unclear about in the job description</li>
+                <li>What benefits are available</li>
+                <li>Opportunities for development and promotion</li>
+              </ul>
+              <li>Maintain eye contact</li>
+              <ul>
+                <li>Conveys confidence and interest</li>
+                <li>Helps the interviewer establish a relationship</li>
+              </ul>
+              <li>Dress professionally</li>
+              <ul>
+                <li>Many interviews require business attire</li>
+                <li>Some interviews may require special attire</li>
+                <li>Grooming and hygiene are always important</li>
+              </ul>
+              <li>Positive Attitude</li>
+              <ul>
+                <li>Try to state your answers in a positive way</li>
+                <li>Do not degrade any past co-worker or company</li>
+              </ul>
+
+            </ul>
+          </div>
+          <div class='secondi'>
+            <iframe class='video' src="https://www.youtube.com/embed/Rdi-SNhe2v4" frameborder="0" allowfullscreen></iframe>
+            <ul>
+              <li class='videoControl'><img src="http://img.youtube.com/vi/Rdi-SNhe2v4/hqdefault.jpg" alt="A person being interviewed"></li>
+              <li class='videoControl'><img src="http://img.youtube.com/vi/B7SoNGxJVc8/hqdefault.jpg" alt="A person being interviewed"></li>
+              <li class='videoControl'><img src="http://img.youtube.com/vi/SieNfciN274/hqdefault.jpg" alt="A person being interviewed"></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <ul>
+          <li><a href="credits.html">Credits</a></li>
+          <div>
+            <li><a href="https://www.facebook.com/jobs"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/GetAJobInLondon"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/jobs/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.pinterest.com/pin/155163149640773255"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.com/watch?v=Req9NmnPQjE"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+          </div>
+        </ul>
+      </div>
+
+      <!-- JS -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/projecta.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js/home.js"></script>
+    </body>
+    </html>
